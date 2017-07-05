@@ -6,8 +6,13 @@
     <body>
 	 <h1>Prueba con Travis y PHP <h1>
 
-        <?php
-            echo "¡Hola, soy un script de PHP!";
-        ?>
+      <?php
+class Test extends PHPUnit_Framework_TestCase
+{
+	public function testOnePlusOne() {
+		$this->assertEquals(1+1,1);
+  	}
+}
+?>
     </body>
 </html>
