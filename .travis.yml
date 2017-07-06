@@ -1,6 +1,11 @@
 language: php
 dist: Xenial
 php:
+  - 7.5
+  - 7.4
+  - 7.3
+  - 7.2
+  - 7.1
   - 7.0
   - 5.5
   - 5.4
