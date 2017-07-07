@@ -7,5 +7,10 @@ class Calculator
         return $a + $b;
     }
  
+function hello_world() {
+  return "Hello world!";
 }
 
+}
+
+?>
