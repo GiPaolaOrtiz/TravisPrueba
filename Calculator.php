@@ -4,12 +4,9 @@ class Calculator
  
     public function add($a, $b)
     {
-        return $a + $b;
+        return "Error";
     }
- 
-function hello_world() {
-  return "Hello world!";
-}
+
 
 }
 
