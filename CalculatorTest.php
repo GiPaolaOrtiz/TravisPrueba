@@ -21,7 +21,5 @@ class CalculatorTests extends PHPUnit_Framework_TestCase
 
         $this->assertEquals(3, $result);
 }
-function test_hello_world() {
-  $this->assertEquals("Hello World!" == hello_world());
-}
+
 }
